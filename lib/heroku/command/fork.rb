@@ -89,6 +89,7 @@ module Heroku::Command
       end
 
       puts "Fork complete, view it at #{to_info['web_url']}"
+      to
     end
 
   private
